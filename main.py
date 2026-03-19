@@ -18,7 +18,7 @@ def home():
 
 @app.post("/generate")
 def generate():
-    prompt = "Write a simple README.md for a sample project."
+    prompt = " now you can read file."
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
